@@ -21,6 +21,7 @@ const int m_POPI          = 5;
 const int m_COLOR_SLIDER  = 6;
 const int m_COMET         = 7;
 const int m_AURORA        = 8;
+const int m_LAVA          = 9;
 
 clock_t t_Cache;
 int mode;
@@ -73,6 +74,7 @@ void setup() {
 #include "colorslider.h"
 #include "comets.h"
 #include "aurora.h"
+#include "lava.h"
 
 void pride() 
 {
@@ -145,6 +147,9 @@ void loop() {
       break;
     case m_AURORA:
       Aurora();
+      break;
+    case m_LAVA:
+      Lava();
       break;
     default:
       FastLED.clear(true);

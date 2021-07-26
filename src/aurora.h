@@ -3,6 +3,7 @@
 #define FASTLED_INTERNAL
 #include <FastLED.h>
 
+// https://cssgradient.io/
 DEFINE_GRADIENT_PALETTE(aurora_pallete) {
 0,0,255,100,
 20,0,207,170,
