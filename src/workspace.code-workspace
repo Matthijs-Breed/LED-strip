@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\Dave-02"
+		},
+		{
+			"name": "Heltec First Light",
+			"path": ".."
+		},
+		{
+			"name": "WiFi Scan",
+			"path": "..\\..\\WiFi Scan"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"limits": "cpp",
+			"*.tcc": "cpp",
+			"type_traits": "cpp"
+		}
+	}
+}
